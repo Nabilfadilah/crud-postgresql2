@@ -1,10 +1,9 @@
 <script setup>
+import Student from "./components/Student.vue";
 </script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-  </div>
+  <Student /> <!-- Gunakan huruf besar sesuai dengan nama komponen -->
 </template>
 
 <style scoped>
